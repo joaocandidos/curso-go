@@ -10,10 +10,11 @@ func main() {
 	y := 2
 	//convertendo int para float
 	fmt.Println(x / float64(y))
-	//imprime o valor unicod (97 = a)
-	fmt.Println(string(97))
+	//imprime o valor ASCII (97 = a)
+
+	fmt.Printf(string(97))
 	// int para string strconv.Itoa()
-	fmt.Println("teste " + strconv.Itoa(12345))
+	fmt.Println("\n teste " + strconv.Itoa(12345))
 	//de string para int a funcao retorna int e um error
 	num, _ := strconv.Atoi("12345")
 	fmt.Println(num)
